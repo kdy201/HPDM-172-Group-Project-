@@ -142,25 +142,78 @@ Uses multi-table join filtering.
 
 ---
 
+
+```md
 # ▶️ How to Use the Files
 
-```bash
-STEP 1 — CREATE THE DATABASE
-Run the following command to create all tables and relationships using schema.sql:
-    mysql -u root -p < database/schema.sql
+### **STEP 1 — Create the Database**
 
+Open MySQL and create the main project database:
 
-STEP 2 — INSERT SYNTHETIC DATA
-Populate all tables with the generated dataset:
-    mysql -u root -p < database/insert_data.sql
+CREATE DATABASE hospital_db;
+USE hospital_db;
 
+---
 
-STEP 3 — RUN ANY QUERY
-Execute any SQL query from the /queries/ folder, for example:
-    mysql -u root -p < queries/query1_doctors_by_hospital.sql
+### **STEP 2 — Create the Tables**
 
+Run all required CREATE TABLE statements for your tables  
+(Hospitals, Doctors, Patients, Appointments, LabResults, Medications, etc.)
 
-STEP 4 — EXPORT THE FINAL DATABASE (REQUIRED FOR SUBMISSION)
-Create a final MySQL dump file of the completed database:
-    mysqldump -u root -p hospital_db > database/exported_db.sql
+These definitions are included in the project documentation.
+
+---
+
+### **STEP 3 — Import the CSV Data (First-Time Setup Only)**
+
+Use LOAD DATA LOCAL INFILE to load each dataset.
+
+-- Import Appointments  
+LOAD DATA LOCAL INFILE 'C:/mysql_data/Appointments.csv'  
+INTO TABLE Appointments  
+FIELDS TERMINATED BY ','  
+LINES TERMINATED BY '\n'  
+IGNORE 1 ROWS  
+(appointment_id, patient_id, doctor_id, hospital_id, @date, @time, appointment_type)  
+SET appointment_date = STR_TO_DATE(@date, '%d/%m/%Y'),  
+    appointment_time = STR_TO_DATE(@time, '%H:%i');
+
+-- Import Lab Results  
+LOAD DATA LOCAL INFILE 'C:/mysql_data/Lab_Results.csv'  
+INTO TABLE LabResults  
+FIELDS TERMINATED BY ','  
+LINES TERMINATED BY '\n'  
+IGNORE 1 ROWS  
+(lab_result_id, patient_id, doctor_id, hospital_id, test_name, @value, result_unit, result_flag, @date)  
+SET result_value = CAST(@value AS DECIMAL(10,2)),  
+    result_date = STR_TO_DATE(@date, '%d/%m/%Y');
+
+-- Import Medications  
+LOAD DATA LOCAL INFILE 'C:/mysql_data/Medications.csv'  
+INTO TABLE Medications  
+FIELDS TERMINATED BY ','  
+LINES TERMINATED BY '\n'  
+IGNORE 1 ROWS  
+(@dummy, medication_id, @raw_name)  
+SET medication_name = TRIM(@raw_name);
+
+> Note: Only run these commands once on an empty database.  
+> Running them again will skip rows if primary keys already exist.
+
+---
+
+### **STEP 4 — Run SQL Queries from the /queries folder**
+
+Example:
+
+mysql -u root -p hospital_db < queries/query_appointments_by_patient.sql
+
+---
+
+### **STEP 5 — Export the Final Database**
+
+Use mysqldump to generate the final project export file:
+
+mysqldump -u root -p hospital_db > database/hospital_db_export.sql
 ```
+
