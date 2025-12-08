@@ -1,31 +1,31 @@
-,medication_id,medication_name
-0,1,Paracetamol
-1,2,Ibuprofen
-2,3,Amoxicillin
-3,4,Omeprazole
-4,5,Atorvastatin
-5,6,Metformin
-6,7,Amlodipine
-7,8,Losartan
-8,9,Simvastatin
-9,10,Levothyroxine
-10,11,Sertraline
-11,12,Citalopram
-12,13,Codeine
-13,14,Naproxen
-14,15,Doxycycline
-15,16,Prednisolone
-16,17,Azithromycin
-17,18,Amoxiclav
-18,19,Ferrous Sulfate
-19,20,Folic Acid
-20,21,Vitamin D3
-21,22,Loratadine
-22,23,Salbutamol
-23,24,Beclometasone
-24,25,Insulin Glargine
-25,26,Warfarin
-26,27,Aspirin
-27,28,Gabapentin
-28,29,Diclofenac
-29,30,Lansoprazole
+medication_id,medication_name
+1,Paracetamol
+2,Ibuprofen
+3,Amoxicillin
+4,Omeprazole
+5,Atorvastatin
+6,Metformin
+7,Amlodipine
+8,Losartan
+9,Simvastatin
+10,Levothyroxine
+11,Sertraline
+12,Citalopram
+13,Codeine
+14,Naproxen
+15,Doxycycline
+16,Prednisolone
+17,Azithromycin
+18,Amoxiclav
+19,Ferrous Sulfate
+20,Folic Acid
+21,Vitamin D3
+22,Loratadine
+23,Salbutamol
+24,Beclometasone
+25,Insulin Glargine
+26,Warfarin
+27,Aspirin
+28,Gabapentin
+29,Diclofenac
+30,Lansoprazole

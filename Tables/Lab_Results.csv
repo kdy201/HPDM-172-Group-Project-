@@ -34,7 +34,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 33,34,68,37,Chest X-ray,,,Normal,17/02/2024
 34,35,78,38,Lipid profile,4.1,mmol/L (total cholesterol),Normal,16/07/2023
 35,36,32,7,Full blood count,,,Normal,18/07/2023
-36,36,32,7,Phlebotomy,,,Abnormal,27/06/2024
+36,36,32,7,Blood draw,,,Abnormal,27/06/2024
 37,37,35,8,Thyroid function tests,,,Normal,18/12/2024
 38,37,35,8,MRI scan,,,Normal,25/04/2024
 39,39,29,23,Urinalysis,,,Abnormal,23/09/2025
@@ -45,12 +45,12 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 44,42,80,39,Urinalysis,,,Normal,18/12/2024
 45,42,80,39,ECG,,,Normal,12/06/2024
 46,44,25,32,Iron studies,,,Normal,18/09/2024
-47,45,36,33,Phlebotomy,,,Normal,20/06/2025
+47,45,36,33,Blood draw,,,Normal,20/06/2025
 48,46,47,34,CRP,,,Normal,07/06/2023
 49,46,47,34,MRI scan,,,Normal,25/01/2024
 50,47,40,1,Full blood count,,,Abnormal,02/06/2023
 51,48,50,3,CT scan,,,Abnormal,15/09/2023
-52,50,30,17,Phlebotomy,,,Normal,24/10/2023
+52,50,30,17,Blood draw,,,Normal,24/10/2023
 53,50,30,17,Vitamin D level,24.8,nmol/L,Normal,13/10/2025
 54,50,30,17,MRI scan,,,Abnormal,12/09/2024
 55,50,30,17,Liver function tests,,,Normal,30/10/2024
@@ -79,10 +79,10 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 78,70,81,22,Chest X-ray,,,Normal,09/12/2023
 79,71,86,23,ECG,,,Normal,06/07/2023
 80,72,41,38,CRP,,,Abnormal,23/10/2024
-81,73,52,4,Phlebotomy,,,Normal,29/08/2023
+81,73,52,4,Blood draw,,,Normal,29/08/2023
 82,74,58,5,HbA1c,7.6,% (IFCC),Normal,07/03/2025
 83,75,45,39,CT scan,,,Abnormal,04/10/2024
-84,75,45,39,Phlebotomy,,,Abnormal,31/12/2024
+84,75,45,39,Blood draw,,,Abnormal,31/12/2024
 85,75,45,39,Urinalysis,,,Abnormal,03/03/2024
 86,77,54,30,CRP,,,Normal,08/09/2025
 87,78,23,37,Urea and electrolytes,,,Abnormal,24/11/2024
@@ -95,13 +95,13 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 94,86,60,6,Iron studies,,,Normal,15/10/2024
 95,86,60,6,Urea and electrolytes,,,Normal,28/07/2023
 96,86,60,6,CRP,,,Normal,21/06/2023
-97,86,60,6,Phlebotomy,,,Normal,05/05/2024
+97,86,60,6,Blood draw,,,Normal,05/05/2024
 98,87,63,31,Coagulation screen,,,Normal,14/05/2024
 99,87,63,31,Thyroid function tests,,,Abnormal,31/07/2023
 100,89,96,19,HbA1c,9.4,% (IFCC),Abnormal,14/08/2023
 101,90,99,20,CT scan,,,Normal,10/05/2024
 102,91,2,17,HbA1c,10.4,% (IFCC),Abnormal,19/08/2025
-103,92,78,38,Phlebotomy,,,Abnormal,26/11/2023
+103,92,78,38,Blood draw,,,Abnormal,26/11/2023
 104,93,67,8,Chest X-ray,,,Normal,12/04/2025
 105,94,80,39,Thyroid function tests,,,Abnormal,10/04/2024
 106,95,84,40,Iron studies,,,Normal,29/11/2023
@@ -113,20 +113,20 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 112,104,97,36,Lipid profile,6.6,mmol/L (total cholesterol),Normal,30/06/2024
 113,105,77,33,MRI scan,,,Normal,28/07/2024
 114,106,79,2,CT scan,,,Abnormal,11/12/2024
-115,107,88,4,Phlebotomy,,,Normal,14/11/2023
+115,107,88,4,Blood draw,,,Normal,14/11/2023
 116,108,87,3,Urea and electrolytes,,,Abnormal,21/06/2023
 117,109,57,36,Lipid profile,3.4,mmol/L (total cholesterol),Normal,19/06/2024
 118,112,68,37,Liver function tests,,,Abnormal,29/01/2025
-119,112,68,37,Phlebotomy,,,Normal,15/08/2024
+119,112,68,37,Blood draw,,,Normal,15/08/2024
 120,113,85,35,Thyroid function tests,,,Abnormal,08/11/2023
 121,113,85,35,Urea and electrolytes,,,Normal,05/05/2024
 122,116,78,38,Vitamin D level,84.4,nmol/L,Abnormal,30/01/2024
-123,118,100,32,Phlebotomy,,,Normal,26/07/2023
+123,118,100,32,Blood draw,,,Normal,26/07/2023
 124,119,88,4,MRI scan,,,Normal,28/03/2024
-125,120,10,3,Phlebotomy,,,Normal,08/09/2023
+125,120,10,3,Blood draw,,,Normal,08/09/2023
 126,120,10,3,Full blood count,,,Normal,22/11/2023
 127,121,13,4,Liver function tests,,,Abnormal,12/10/2025
-128,123,3,1,Phlebotomy,,,Abnormal,07/04/2025
+128,123,3,1,Blood draw,,,Abnormal,07/04/2025
 129,124,5,36,CT scan,,,Normal,14/06/2024
 130,125,1,30,Chest X-ray,,,Normal,30/08/2024
 131,125,1,30,Urea and electrolytes,,,Abnormal,24/08/2024
@@ -134,7 +134,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 133,128,41,38,Lipid profile,3.4,mmol/L (total cholesterol),Abnormal,05/09/2025
 134,129,84,40,CRP,,,Normal,08/10/2025
 135,130,97,36,MRI scan,,,Abnormal,07/01/2025
-136,131,31,6,Phlebotomy,,,Abnormal,20/08/2023
+136,131,31,6,Blood draw,,,Abnormal,20/08/2023
 137,131,31,6,CT scan,,,Normal,27/10/2024
 138,132,9,31,HbA1c,6.1,% (IFCC),Abnormal,25/11/2023
 139,133,45,39,Thyroid function tests,,,Normal,05/09/2025
@@ -146,12 +146,12 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 145,138,36,33,MRI scan,,,Normal,29/07/2024
 146,140,10,3,Lipid profile,7.6,mmol/L (total cholesterol),Normal,13/08/2025
 147,141,57,36,Chest X-ray,,,Abnormal,26/02/2024
-148,142,35,8,Phlebotomy,,,Abnormal,09/07/2023
+148,142,35,8,Blood draw,,,Abnormal,09/07/2023
 149,144,51,35,CT scan,,,Normal,10/07/2024
 150,145,16,21,Urinalysis,,,Normal,21/07/2023
-151,145,16,21,Phlebotomy,,,Abnormal,16/06/2024
+151,145,16,21,Blood draw,,,Abnormal,16/06/2024
 152,147,54,30,Iron studies,,,Abnormal,14/03/2024
-153,147,54,30,Phlebotomy,,,Normal,20/01/2024
+153,147,54,30,Blood draw,,,Normal,20/01/2024
 154,149,20,22,Urinalysis,,,Abnormal,16/06/2025
 155,149,20,22,MRI scan,,,Normal,10/12/2023
 156,149,20,22,ECG,,,Normal,21/09/2025
@@ -176,14 +176,14 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 175,166,58,5,Coagulation screen,,,Abnormal,05/04/2024
 176,166,58,5,CT scan,,,Normal,08/06/2023
 177,167,77,33,Chest X-ray,,,Abnormal,01/04/2024
-178,168,83,34,Phlebotomy,,,Normal,10/05/2024
+178,168,83,34,Blood draw,,,Normal,10/05/2024
 179,169,60,6,Vitamin D level,42.4,nmol/L,Abnormal,10/12/2023
 180,169,60,6,HbA1c,8.1,% (IFCC),Normal,29/07/2023
 181,169,60,6,CT scan,,,Abnormal,28/04/2025
 182,169,60,6,HbA1c,9.1,% (IFCC),Abnormal,29/03/2024
 183,170,23,37,MRI scan,,,Abnormal,02/07/2024
 184,171,85,35,Coagulation screen,,,Abnormal,13/06/2025
-185,172,40,1,Phlebotomy,,,Abnormal,01/11/2024
+185,172,40,1,Blood draw,,,Abnormal,01/11/2024
 186,173,46,2,Thyroid function tests,,,Normal,27/03/2024
 187,176,93,31,Thyroid function tests,,,Abnormal,01/04/2025
 188,178,53,19,Iron studies,,,Abnormal,16/08/2025
@@ -207,7 +207,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 206,195,25,32,Iron studies,,,Normal,06/08/2023
 207,196,86,23,Iron studies,,,Abnormal,09/09/2024
 208,196,86,23,Urinalysis,,,Abnormal,04/05/2025
-209,197,58,5,Phlebotomy,,,Abnormal,08/07/2025
+209,197,58,5,Blood draw,,,Abnormal,08/07/2025
 210,197,58,5,Coagulation screen,,,Normal,09/09/2025
 211,197,58,5,CT scan,,,Normal,20/01/2024
 212,197,58,5,CRP,,,Normal,03/01/2024
@@ -216,7 +216,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 215,200,36,33,Urea and electrolytes,,,Normal,08/04/2025
 216,202,60,6,Urea and electrolytes,,,Normal,31/07/2024
 217,202,60,6,ECG,,,Abnormal,05/10/2023
-218,203,5,36,Phlebotomy,,,Normal,28/12/2023
+218,203,5,36,Blood draw,,,Normal,28/12/2023
 219,204,47,34,Full blood count,,,Abnormal,04/08/2024
 220,205,3,1,Vitamin D level,80.4,nmol/L,Normal,02/08/2024
 221,206,62,7,Lipid profile,5.6,mmol/L (total cholesterol),Normal,16/03/2024
@@ -224,7 +224,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 223,207,92,17,Vitamin D level,102.3,nmol/L,Normal,01/06/2024
 224,208,23,37,Iron studies,,,Normal,11/07/2023
 225,209,4,2,Coagulation screen,,,Abnormal,04/05/2024
-226,214,10,3,Phlebotomy,,,Normal,01/09/2023
+226,214,10,3,Blood draw,,,Normal,01/09/2023
 227,215,84,40,Liver function tests,,,Normal,18/02/2024
 228,216,95,18,ECG,,,Abnormal,26/02/2024
 229,217,97,36,Lipid profile,7.1,mmol/L (total cholesterol),Normal,20/10/2025
@@ -234,10 +234,10 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 233,221,54,30,ECG,,,Abnormal,20/06/2025
 234,223,76,1,Thyroid function tests,,,Normal,15/07/2024
 235,223,76,1,CT scan,,,Abnormal,05/03/2024
-236,224,23,37,Phlebotomy,,,Abnormal,26/03/2025
+236,224,23,37,Blood draw,,,Abnormal,26/03/2025
 237,224,23,37,Thyroid function tests,,,Normal,14/10/2023
 238,225,79,2,Urea and electrolytes,,,Normal,15/09/2023
-239,226,41,38,Phlebotomy,,,Abnormal,03/12/2023
+239,226,41,38,Blood draw,,,Abnormal,03/12/2023
 240,227,45,39,Chest X-ray,,,Normal,31/10/2025
 241,228,66,32,HbA1c,7.9,% (IFCC),Abnormal,24/09/2023
 242,229,55,40,ECG,,,Normal,04/08/2023
@@ -256,10 +256,10 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 255,241,2,17,Full blood count,,,Normal,19/08/2025
 256,242,35,8,Iron studies,,,Normal,01/04/2025
 257,243,6,18,Urinalysis,,,Abnormal,23/09/2025
-258,246,57,36,Phlebotomy,,,Abnormal,03/06/2025
+258,246,57,36,Blood draw,,,Abnormal,03/06/2025
 259,247,85,35,Lipid profile,6.8,mmol/L (total cholesterol),Normal,03/06/2023
 260,248,89,30,Iron studies,,,Abnormal,19/05/2025
-261,250,93,31,Phlebotomy,,,Normal,19/09/2025
+261,250,93,31,Blood draw,,,Normal,19/09/2025
 262,250,93,31,MRI scan,,,Normal,16/02/2024
 263,251,12,20,Coagulation screen,,,Normal,20/10/2025
 264,252,3,1,ECG,,,Normal,03/06/2025
@@ -276,7 +276,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 275,259,84,40,Urinalysis,,,Normal,23/12/2023
 276,261,84,40,Chest X-ray,,,Normal,28/05/2025
 277,262,16,21,Thyroid function tests,,,Abnormal,28/05/2025
-278,264,46,2,Phlebotomy,,,Abnormal,21/04/2025
+278,264,46,2,Blood draw,,,Abnormal,21/04/2025
 279,265,20,22,Iron studies,,,Abnormal,05/09/2025
 280,268,50,3,Urea and electrolytes,,,Normal,22/12/2023
 281,269,97,36,Thyroid function tests,,,Abnormal,30/04/2025
@@ -329,7 +329,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 328,317,76,1,Vitamin D level,35.4,nmol/L,Normal,18/04/2025
 329,318,99,20,Urea and electrolytes,,,Abnormal,22/03/2025
 330,319,68,37,Iron studies,,,Normal,12/02/2024
-331,321,97,36,Phlebotomy,,,Abnormal,31/05/2024
+331,321,97,36,Blood draw,,,Abnormal,31/05/2024
 332,323,5,36,Lipid profile,4.4,mmol/L (total cholesterol),Normal,16/12/2023
 333,324,2,17,ECG,,,Abnormal,21/02/2025
 334,325,35,8,HbA1c,8.3,% (IFCC),Abnormal,05/09/2025
@@ -337,13 +337,13 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 336,327,6,18,CRP,,,Abnormal,10/03/2024
 337,328,7,19,HbA1c,8.9,% (IFCC),Abnormal,04/10/2024
 338,328,7,19,ECG,,,Abnormal,02/06/2024
-339,329,80,39,Phlebotomy,,,Normal,27/11/2023
+339,329,80,39,Blood draw,,,Normal,27/11/2023
 340,330,23,37,Liver function tests,,,Abnormal,27/10/2025
 341,331,89,30,Coagulation screen,,,Abnormal,21/06/2025
 342,331,89,30,Liver function tests,,,Normal,20/06/2023
 343,332,12,20,Full blood count,,,Abnormal,27/07/2025
 344,332,12,20,Coagulation screen,,,Normal,16/12/2024
-345,333,16,21,Phlebotomy,,,Normal,09/06/2024
+345,333,16,21,Blood draw,,,Normal,09/06/2024
 346,334,87,3,Iron studies,,,Normal,18/09/2024
 347,335,84,40,Liver function tests,,,Abnormal,07/06/2024
 348,336,20,22,CRP,,,Normal,15/07/2025
@@ -359,7 +359,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 358,343,97,36,Liver function tests,,,Abnormal,20/06/2024
 359,344,5,36,CT scan,,,Abnormal,14/09/2025
 360,344,5,36,Chest X-ray,,,Abnormal,20/08/2025
-361,344,5,36,Phlebotomy,,,Normal,26/10/2024
+361,344,5,36,Blood draw,,,Normal,26/10/2024
 362,345,88,4,ECG,,,Normal,22/01/2024
 363,345,88,4,Liver function tests,,,Abnormal,03/01/2024
 364,348,37,18,Lipid profile,6.3,mmol/L (total cholesterol),Abnormal,08/09/2025
@@ -369,7 +369,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 368,353,53,19,Urea and electrolytes,,,Normal,28/07/2023
 369,355,93,31,CT scan,,,Normal,06/06/2025
 370,355,93,31,Iron studies,,,Normal,08/01/2024
-371,356,41,38,Phlebotomy,,,Abnormal,22/11/2023
+371,356,41,38,Blood draw,,,Abnormal,22/11/2023
 372,358,69,20,HbA1c,9.5,% (IFCC),Normal,28/02/2025
 373,359,70,21,Vitamin D level,32.6,nmol/L,Abnormal,07/09/2024
 374,360,81,22,Liver function tests,,,Normal,22/06/2024
@@ -378,7 +378,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 377,365,55,40,HbA1c,10.0,% (IFCC),Normal,02/08/2025
 378,366,57,36,MRI scan,,,Abnormal,14/06/2024
 379,367,62,7,MRI scan,,,Normal,30/08/2025
-380,367,62,7,Phlebotomy,,,Abnormal,24/05/2024
+380,367,62,7,Blood draw,,,Abnormal,24/05/2024
 381,368,78,38,Lipid profile,5.1,mmol/L (total cholesterol),Abnormal,01/10/2024
 382,369,100,32,Liver function tests,,,Abnormal,02/02/2025
 383,370,68,37,MRI scan,,,Abnormal,11/12/2023
@@ -388,8 +388,8 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 387,373,78,38,HbA1c,7.6,% (IFCC),Abnormal,23/02/2024
 388,374,95,18,MRI scan,,,Abnormal,16/02/2025
 389,374,95,18,Vitamin D level,119.1,nmol/L,Abnormal,13/07/2025
-390,376,96,19,Phlebotomy,,,Normal,14/06/2024
-391,377,13,4,Phlebotomy,,,Abnormal,10/04/2024
+390,376,96,19,Blood draw,,,Normal,14/06/2024
+391,377,13,4,Blood draw,,,Abnormal,10/04/2024
 392,378,9,31,CT scan,,,Normal,23/10/2025
 393,379,80,39,Lipid profile,6.7,mmol/L (total cholesterol),Abnormal,10/08/2025
 394,379,80,39,Thyroid function tests,,,Normal,06/01/2024
@@ -422,10 +422,10 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 421,403,63,31,Vitamin D level,34.2,nmol/L,Normal,23/10/2024
 422,404,66,32,CRP,,,Normal,27/02/2024
 423,408,41,38,HbA1c,9.4,% (IFCC),Normal,20/08/2023
-424,409,7,19,Phlebotomy,,,Normal,22/07/2025
+424,409,7,19,Blood draw,,,Normal,22/07/2025
 425,410,4,2,Urea and electrolytes,,,Abnormal,15/06/2024
 426,410,4,2,Urinalysis,,,Abnormal,09/01/2025
-427,411,46,2,Phlebotomy,,,Normal,22/07/2025
+427,411,46,2,Blood draw,,,Normal,22/07/2025
 428,411,46,2,Vitamin D level,56.8,nmol/L,Normal,26/07/2023
 429,412,12,20,MRI scan,,,Abnormal,05/12/2024
 430,414,83,34,Thyroid function tests,,,Abnormal,02/10/2023
@@ -461,7 +461,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 460,455,46,2,ECG,,,Normal,15/05/2025
 461,455,46,2,Thyroid function tests,,,Abnormal,08/03/2025
 462,455,46,2,MRI scan,,,Abnormal,21/05/2024
-463,455,46,2,Phlebotomy,,,Normal,02/09/2025
+463,455,46,2,Blood draw,,,Normal,02/09/2025
 464,457,84,40,MRI scan,,,Abnormal,07/11/2023
 465,458,50,3,Full blood count,,,Normal,18/05/2024
 466,459,97,36,Full blood count,,,Abnormal,13/07/2025
@@ -477,10 +477,10 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 476,474,41,38,Vitamin D level,28.1,nmol/L,Abnormal,14/06/2025
 477,474,41,38,Full blood count,,,Normal,01/09/2023
 478,476,41,38,Urinalysis,,,Abnormal,15/04/2024
-479,477,45,39,Phlebotomy,,,Abnormal,17/09/2024
+479,477,45,39,Blood draw,,,Abnormal,17/09/2024
 480,478,81,22,Urea and electrolytes,,,Abnormal,22/08/2023
 481,479,36,33,HbA1c,5.8,% (IFCC),Abnormal,13/08/2023
-482,479,36,33,Phlebotomy,,,Normal,14/12/2023
+482,479,36,33,Blood draw,,,Normal,14/12/2023
 483,480,10,3,Vitamin D level,100.8,nmol/L,Normal,03/10/2023
 484,480,10,3,CRP,,,Abnormal,29/07/2025
 485,481,45,39,Urea and electrolytes,,,Normal,14/09/2024
@@ -535,7 +535,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 534,523,77,33,HbA1c,6.8,% (IFCC),Normal,25/01/2024
 535,524,35,8,Iron studies,,,Normal,05/01/2025
 536,525,20,22,Coagulation screen,,,Normal,10/06/2025
-537,526,29,23,Phlebotomy,,,Normal,12/10/2024
+537,526,29,23,Blood draw,,,Normal,12/10/2024
 538,527,30,17,Lipid profile,6.0,mmol/L (total cholesterol),Abnormal,09/07/2023
 539,527,30,17,CT scan,,,Normal,07/08/2025
 540,529,5,36,Chest X-ray,,,Abnormal,31/07/2024
@@ -546,7 +546,7 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 545,534,50,3,CT scan,,,Abnormal,10/07/2025
 546,535,45,39,Liver function tests,,,Normal,16/08/2024
 547,536,88,4,CT scan,,,Normal,14/10/2023
-548,537,85,35,Phlebotomy,,,Normal,13/12/2024
+548,537,85,35,Blood draw,,,Normal,13/12/2024
 549,538,23,37,Liver function tests,,,Abnormal,26/10/2024
 550,539,52,4,HbA1c,9.3,% (IFCC),Abnormal,24/12/2024
 551,541,89,30,Coagulation screen,,,Normal,04/02/2024
@@ -587,13 +587,13 @@ lab_result_id,patient_id,doctor_id,hospital_id,test_name,result_value,result_uni
 586,571,68,37,Vitamin D level,31.0,nmol/L,Normal,18/09/2023
 587,574,76,1,CRP,,,Normal,23/01/2024
 588,574,76,1,Full blood count,,,Abnormal,21/08/2023
-589,574,76,1,Phlebotomy,,,Normal,27/10/2024
-590,574,76,1,Phlebotomy,,,Abnormal,06/12/2023
-591,575,36,33,Phlebotomy,,,Abnormal,19/10/2023
+589,574,76,1,Blood draw,,,Normal,27/10/2024
+590,574,76,1,Blood draw,,,Abnormal,06/12/2023
+591,575,36,33,Blood draw,,,Abnormal,19/10/2023
 592,575,36,33,Thyroid function tests,,,Normal,18/01/2024
 593,577,51,35,Full blood count,,,Abnormal,27/07/2024
 594,579,54,30,Coagulation screen,,,Normal,07/08/2023
-595,581,84,40,Phlebotomy,,,Abnormal,11/09/2024
+595,581,84,40,Blood draw,,,Abnormal,11/09/2024
 596,581,84,40,CRP,,,Abnormal,19/07/2024
 597,581,84,40,Urea and electrolytes,,,Abnormal,07/06/2025
 598,581,84,40,Urinalysis,,,Abnormal,16/02/2025
