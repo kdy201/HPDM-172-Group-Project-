@@ -19,27 +19,27 @@ The database models a complete hospital information management system with the f
 
 ### **Hospitals**
 - hospital_id (PK)
-- name
-- address
-- size (number of beds)
-- type
-- accreditation_year
-- emergency_service (Y/N)
+- hospital_name
+- hospital_address
+- num_beds
+- hospital_type
+- hospital_accreditation_status
 
 ### **Doctors**
-- doctor_id (PK)
-- name
-- date_of_birth
-- address
-- hospital_id (FK → Hospitals)
-- speciality
+- doctor_id
+- doctor_name
+- doctor_dob
+- doctor_address
+- hospital_id
+
 
 ### **Patients**
-- patient_id (PK)
-- name
-- date_of_birth
-- address
-- doctor_id (FK → Doctors)
+- patient_id
+- patient_name
+- patient_dob
+- patient_address
+- doctor_id
+
 
 ### **Medications**
 - medication_id (PK)
@@ -47,33 +47,43 @@ The database models a complete hospital information management system with the f
 
 
 ### **Prescriptions**
-- prescription_id (PK)
-- doctor_id (FK)
-- patient_id (FK)
-- medication_id (FK)
-- prescription_date
+- prescription_id
+- patient_id
+- doctor_id
+- date_prescribed
+- hospital_id
+- medication_id
+
 
 ### **Diseases**
-- disease_id (PK)
+- disease_id
 - disease_name
-- medication_id (FK → Medications)
-- specialist_doctor_id (FK → Doctors)
+
+### **Disease_Medication** 
+- medication_id
+- disease_id
+
+### **Specialist**
+- doctor_id
+- disease_id
+- hospital_id
 
 ### **Appointments**
-- appointment_id (PK)
-- patient_id (FK → Patients)
-- doctor_id (FK → Doctors)
-- hospital_id (FK → Hospitals)
+- appointment_id
+- patient_id
+- doctor_id
+- hospital_id
 - appointment_date
 - appointment_time
 - appointment_type
-n
+
+
 
 ### **LabResults**
-- lab_result_id (PK)
-- patient_id (FK → Patients)
-- doctor_id (FK → Doctors)
-- hospital_id (FK → Hospitals)
+- lab_result_id
+- patient_id
+- doctor_id
+- hospital_id
 - test_name
 - result_value
 - result_unit
