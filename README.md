@@ -158,7 +158,7 @@ Filters by accreditation year and emergency availability.
 ### Query 19 — Patients registered with doctors at hospitals < 400 beds
 Uses multi-table join filtering.
 
----
+
 ## 💾 Additional Queries Implemented for This Project
 
 The following SQL files are included in the `/queries` folder and work with the  
@@ -187,7 +187,7 @@ Open MySQL and create the main project database:
 CREATE DATABASE hospital_db;
 USE hospital_db;
 
----
+
 
 ### **STEP 2 — Create the Tables**
 
@@ -196,7 +196,7 @@ Run all required CREATE TABLE statements for your tables
 
 These definitions are included in the project documentation.
 
----
+
 
 ### **STEP 3 — Import the CSV Data (First-Time Setup Only)**
 
@@ -233,7 +233,6 @@ IGNORE 1 ROWS
 SET medication_name = TRIM(@raw_name);
 
 
----
 
 ### **STEP 4 — Run SQL Queries from the /queries folder**
 
@@ -241,13 +240,9 @@ Example:
 
 mysql -u root -p hospital_db < queries/query_appointments_by_patient.sql
 
----
 
 ### **STEP 5 — Export the Final Database**
 
 Use mysqldump to generate the final project export file:
 
 mysqldump -u root -p hospital_db > database/hospital_db_export.sql
-```
-
-
