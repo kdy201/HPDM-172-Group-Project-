@@ -22,7 +22,7 @@ The database models a complete hospital information management system with the f
 - name
 - address
 - size (number of beds)
-- type (e.g., Teaching, General)
+- type
 - accreditation_year
 - emergency_service (Y/N)
 
