@@ -60,18 +60,25 @@ The database models a complete hospital information management system with the f
 
 ### **Appointments**
 - appointment_id (PK)
-- doctor_id (FK)
-- patient_id (FK)
+- patient_id (FK → Patients)
+- doctor_id (FK → Doctors)
+- hospital_id (FK → Hospitals)
 - appointment_date
-- appointment_reason
+- appointment_time
+- appointment_type
+n
 
 ### **LabResults**
-- labresult_id (PK)
-- doctor_id (FK)
-- patient_id (FK)
-- test_type
+- lab_result_id (PK)
+- patient_id (FK → Patients)
+- doctor_id (FK → Doctors)
+- hospital_id (FK → Hospitals)
+- test_name
 - result_value
+- result_unit
+- result_flag
 - result_date
+
 
 ---
 
