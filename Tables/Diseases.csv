@@ -1,16 +1,16 @@
 disease_id,disease_name
-1,Essential (primary) hypertension
-2,Type 2 diabetes mellitus without complications
-3,Hyperlipidaemia
-4,Hypothyroidism
-5,Iron deficiency anaemia
-6,Vitamin D deficiency
-7,Mild persistent asthma
-8,Chronic obstructive pulmonary disease
-9,Allergic rhinitis
-10,Acute upper respiratory infection
-11,Gastro-oesophageal reflux disease without oesophagitis
-12,Unspecified osteoarthritis
-13,"Major depressive disorder, single episode"
-14,Generalized anxiety disorder
-16,Unspecified atrial fibrillation
+1,Diabetes
+2,Heart failure
+3,Chronic Obstructive Pulmonary Disaease
+4,Psoriasis
+5,Alopecia Areata
+6,Graves Disease
+7,Epilepsy
+8,Parkinson's disease
+9,Multiple Sclerosis
+10,Crohn's disease
+11,Ulcerative colitis
+12,Hepatitis
+13,Rheumatoid Arthritis
+14,Systematic Lupus Erythematosus
+15,Asthma
