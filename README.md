@@ -7,7 +7,6 @@ The system includes hospitals, doctors, patients, prescriptions, diseases, medic
 The project includes:
 - Entity Relationship Diagrams (ERDs)
 - SQL table creation scripts
-- Synthetic data generation
 - Required SQL queries (1–19)
 - Additional single-query files
 - A teamwork portfolio
@@ -35,6 +34,16 @@ HPDM-172-Group-Project--main/
       ├── Diseases.csv
       ├── Specialist.csv
       └── Disease_Medication.csv
+└── Team Portfolio/
+      ├── ActionPlan.pdf
+      ├── AgendaTemplate 7th dec 1.docx
+      ├── AgendaTemplate 17th nov 1.docx
+      ├── AgendaTemplate 22th nov 1.docx
+      ├── AgendaTemplate 27th nov 1.docx
+      ├── Minutes_1.docx
+      ├── Minutes_2.docx
+      ├── Minutes_3.docx
+
 ```
 
 ---
