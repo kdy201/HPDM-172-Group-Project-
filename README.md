@@ -2,12 +2,11 @@
 
 This repository contains the group project for the **HPDM172 – Computational Skills for Health and Life Sciences** module.  
 The aim of this project is to design, build, and query a realistic **hospital information system database** using MySQL.  
-The system includes hospitals, doctors, patients, prescriptions, diseases, medications, appointments, and lab results.
+The database includes several tables, including; hospitals, doctors, patients, prescriptions, diseases, medications, appointments, and lab results.
 
 The project includes:
 - Entity Relationship Diagrams (ERDs)
 - SQL table creation scripts
-- Synthetic data generation
 - Required SQL queries (1–19)
 - A teamwork portfolio
 
@@ -19,11 +18,14 @@ The database models a complete hospital information management system with the f
 
 ### **Hospitals**
 - hospital_id (PK)
-- hospital_name
+- hospital_name 
 - hospital_address
 - num_beds
 - hospital_type
 - hospital_accreditation_status
+- established_date
+- emergency_service
+- accreditation_date 
 
 ### **Doctors**
 - doctor_id
@@ -93,14 +95,14 @@ The database models a complete hospital information management system with the f
 
 ---
 
-# 🧪 SQL Queries & Their Purpose
+# SQL Queries
 
 Each SQL file in the `/queries` folder corresponds to a required task.
 
 ### Query 1 — Doctors working at a specific hospital
 Lists all doctors assigned to a chosen hospital.
 
-### Query 2 — All prescriptions for a particular patient
+### Query 2 — All prescriptions for a particular patient ordered by the prescription date
 Shows all prescriptions ordered by most recent.
 
 ### Query 3 — All prescriptions prescribed by a particular doctor
@@ -159,35 +161,13 @@ Filters by accreditation year and emergency availability.
 Uses multi-table join filtering.
 
 
-## 💾 Additional Queries Implemented for This Project
-
-The following SQL files are included in the `/queries` folder and work with the  
-Appointments, LabResults, and Medications tables:
-
-- `query_appointments_by_patient.sql`  
-  Returns all appointments for a specific patient, ordered by date and time.
-
-- `query_labresults_by_patient.sql`  
-  Returns all lab test results for a specific patient, newest test first.
-
-- `query_doctor_appointments_at_hospital.sql`  
-  Lists all appointments for a specific doctor at a chosen hospital.
-
-- `query_all_medications.sql`  
-  Lists all medications from the Medications table in alphabetical order.
-
-
-
 # ▶️ How to Use the Files
 
-### **STEP 1 — Create the Database**
+### **STEP 0 - Open Linux and 
+#FIX THIS 
 
-Open MySQL and create the main project database:
-
-CREATE DATABASE hospital_db;
-USE hospital_db;
-
-
+### **STEP 1 — Create the Database and Tables**
+#fix thos 
 
 ### **STEP 2 — Create the Tables**
 
@@ -195,43 +175,7 @@ Run all required CREATE TABLE statements for your tables
 (Hospitals, Doctors, Patients, Appointments, LabResults, Medications, etc.)
 
 These definitions are included in the project documentation.
-
-
-
-### **STEP 3 — Import the CSV Data (First-Time Setup Only)**
-
-Use LOAD DATA LOCAL INFILE to load each dataset.
-
--- Import Appointments  
-LOAD DATA LOCAL INFILE 'C:/mysql_data/Appointments.csv'
-INTO TABLE Appointments
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(appointment_id, patient_id, doctor_id, hospital_id, @date, @time, appointment_type)
-SET appointment_date = STR_TO_DATE(@date, '%d/%m/%Y'),
-    appointment_time = STR_TO_DATE(@time, '%H:%i');
-
--- Import Lab Results  
-LOAD DATA LOCAL INFILE 'C:/mysql_data/Lab_Results.csv'
-INTO TABLE LabResults
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(lab_result_id, patient_id, doctor_id, hospital_id, test_name, @value,
- result_unit, result_flag, @date)
-SET result_value = CAST(@value AS DECIMAL(10,2)),
-    result_date = STR_TO_DATE(@date, '%d/%m/%Y');
-
--- Import Medications  
-LOAD DATA LOCAL INFILE 'C:/mysql_data/Medications.csv'
-INTO TABLE Medications
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(@dummy, medication_id, @raw_name)
-SET medication_name = TRIM(@raw_name);
-
+Th
 
 
 ### **STEP 4 — Run SQL Queries from the /queries folder**
