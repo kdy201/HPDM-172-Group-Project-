@@ -48,8 +48,7 @@ HPDM-172-Group-Project--main/
 
 ---
 
-# CSV Data Dictionary
-
+# Generating the synthetic data - GenAI 
 Below are the attributes of each CSV file used in this project.
 Synthetic data were generated using GenerativeAI (ChatGPT) with the following prompts:
 One member's prompt:
@@ -64,6 +63,7 @@ Description:
 The AI tool was used only for the purpose of generating synthetic datasets required for this assessment. Each prompt produced a structured table containing fictional doctor, patient, and hospital records based on the specified attributes. The resulting outputs were copied into Excel and saved as CSV files. 
 
 ---
+# CSV Data Dictionary
 
 ## Hospitals.csv
 - hospital_id — Unique ID for the hospital (Primary key)
