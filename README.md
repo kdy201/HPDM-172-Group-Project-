@@ -246,7 +246,7 @@ SET medication_name = TRIM(@raw_name);
 ### **STEP 4 — Run SQL Queries from the /queries folder**
 
 Example:
-
+cd /home/ubuntu/project/
 mysql -u root -p hospital_db < queries/query_appointments_by_patient.sql
 
 
@@ -254,4 +254,4 @@ mysql -u root -p hospital_db < queries/query_appointments_by_patient.sql
 
 Use mysqldump to generate the final project export file:
 
-mysqldump -u root -p hospital_db > database/Hospital.sql
+/home/ubuntu/project/database/Hospital.sql
