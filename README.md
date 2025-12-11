@@ -48,7 +48,7 @@ HPDM-172-Group-Project--main/
 
 ---
 
-# Generating the synthetic data using GenAI 
+# Generating Synthetic Data using GenAI 
 Synthetic data were generated using GenerativeAI (ChatGPT) with the following prompts:
 - One member's prompt:
 "Here is an assignment I have been given for a group coding project using SQL. (provided the project brief) Can you generate some randomly generated tables following this brief and return them to me as CSV files that will easily translate into SQL tables"
