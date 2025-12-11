@@ -51,6 +51,17 @@ HPDM-172-Group-Project--main/
 # CSV Data Dictionary
 
 Below are the attributes of each CSV file used in this project.
+Synthetic data were generated using GenerativeAI (ChatGPT) with the following prompts:
+One member's prompt:
+"Here is an assignment I have been given for a group coding project using SQL. (provided the project brief) Can you generate some randomly generated tables following this brief and return them to me as CSV files that will easily translate into SQL tables"
+
+Another member's prompts:
+Prompt 1: “I need randomly generated 100 doctors (name, dob, address)”
+Prompt 2 : “I need randomly generated 600 patients (name, dob, address)”
+Prompt 2: “I need randomly generated 40 hospitals (unique name, address, size (number of beds), type, accreditation status)”
+
+Description:
+The AI tool was used only for the purpose of generating synthetic datasets required for this assessment. Each prompt produced a structured table containing fictional doctor, patient, and hospital records based on the specified attributes. The resulting outputs were copied into Excel and saved as CSV files. 
 
 ---
 
