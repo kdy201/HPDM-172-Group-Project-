@@ -200,8 +200,6 @@ These definitions are included in the project documentation.
 
 ### **STEP 3 — Import the CSV Data (First-Time Setup Only)**
 
-### STEP 3 — Import the CSV Data (First-Time Setup Only)
-
 Use `LOAD DATA LOCAL INFILE` to load each dataset.
 
 ```sql
