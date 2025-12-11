@@ -40,8 +40,8 @@ HPDM-172-Group-Project--main/
       ├── AgendaTemplate 17th nov 1.docx
       ├── AgendaTemplate 22th nov 1.docx
       ├── AgendaTemplate 27th nov 1.docx
-      ├── Team Portfolio/Meeting Minutes 1-2.pdf
-      ├──Team Portfolio/Meeting Minutes 3-8.pdf
+      ├── Meeting Minutes 1-2.pdf
+      ├── Meeting Minutes 3-8.pdf
 
 ```
 
