@@ -158,7 +158,8 @@ cd /path/to/HPDM-172-Group-Project--main
 ## 2. Start MySQL with file loading enabled
 
 ```bash
-mysql --local-infile=1 -u root -p
+mysql --local-infile=1 -u hds -p
+Password: HDS2025
 ```
 
 Inside MySQL:
